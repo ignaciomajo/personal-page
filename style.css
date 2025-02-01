@@ -10,24 +10,27 @@ body {
     color: white;
     strong {
         color:chocolate;
-    }
+    };
+    height: 100vh; /* 100% del viewport height */
+    box-sizing: border-box;
 }
 
-main {
+.presentation {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    margin: auto;
+    margin: 5%;
+    justify-content: space-between;
 }
 
-h1 {
+.titulo-blog {
     color: white;
     text-align: center;
     font-size: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p {
+.texto-destacado {
     color: white;
     font-size: 20px;
     text-align: left;
@@ -56,16 +59,25 @@ a:hover {
     background-color: rgb(199, 31, 6);
 }
 
-img {
-    margin-top: 20px;
-    margin-left: 500px;
-    margin-right: 50px
+.image-container {
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-right: 50px;
 }
 
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
 #DataBoard {
     width: 500px;
     height: 300px;
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
     left: 0;
     z-index: 1; /* Imagen de datos en el fondo */
@@ -74,7 +86,7 @@ img {
 #PersonalPicture {
     width: 250px;
     height: 300px;
-    position: absolute;
+    /*position: absolute;*/
     bottom: 50px; /* Ajusta para subir la imagen sobre la otra */
     left: 100px; /* Ajusta para controlar la superposición */
     z-index: 2; /* Imagen personal encima */
