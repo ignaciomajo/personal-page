@@ -8,29 +8,31 @@ body {
     background-color: black;
     background-repeat: repeat-x;
     color: white;
-    strong {
-        color:chocolate;
-    };
+   
     height: 100vh; /* 100% del viewport height */
     box-sizing: border-box;
 }
+
+.strong__h1 {
+    color:chocolate;
+};
 
 .presentation {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 5%;
+    margin: 10%;
     justify-content: space-between;
 }
 
-.titulo-blog {
+.presentation__content__title {
     color: white;
     text-align: center;
     font-size: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.texto-destacado {
+.presentation__content__paragraph {
     color: white;
     font-size: 20px;
     text-align: left;
@@ -43,7 +45,7 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-a {
+.presentation__links__buttons {
     background-color: darkred;
     color: antiquewhite;
     padding: 10px 20px;
