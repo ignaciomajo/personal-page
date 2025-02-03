@@ -77,6 +77,11 @@ body {
     font-family: "Outfit", serif;
 }
 
+.presentation__links__icons {
+    width: 30px;
+    height: 30x;
+}
+
 .presentation__links__buttons {
     background-color: #000000;
     color: #F6F6F6;
@@ -84,12 +89,16 @@ body {
     text-align: center;
     text-decoration: none;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 16px;
     width: 350px;
     font-size: 24px;
     border: 2px solid #F14A00;
     border-radius: 8px;
     font-family: "Figtree", serif;
+   
 }
 
 a:hover {
@@ -105,3 +114,4 @@ a:hover {
     height: 470px;
      
 }
+
