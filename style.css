@@ -11,18 +11,19 @@ body {
     height: 100vh; 
     box-sizing: border-box;
     background-color: #000000;
-    color: #F6F6F6;    
+    color: #F6F6F6;
+    .strong__h1 {
+        color:#F14A00;
+    };
+        
 }
 
-.strong__h1 {
-    color:#F14A00;
-};
 
 
 
 .presentation {
     display: flex;
-    margin: 20% 20%;
+    margin: 7% 13%;
     justify-content: space-between;
 }
 
@@ -30,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-content: center;
     width: 615px;
     gap: 40px;
 }
@@ -66,7 +68,7 @@ body {
     gap: 32px;
 }
 
-.presentation__links__title {
+.presentation__links__subtitle {
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -97,27 +99,9 @@ a:hover {
 .image__container {
     display: flex;
     flex-direction: row-reverse;
-    
-    /*margin-top: 120px;
-    margin-left: 200px;
-    margin-right: 50px;*/
-}
-
-#DataBoard {
-    width: 550px;
-    height: 350px;
-    /*position: absolute;*/
-    bottom: 0;
-    left: 0;
-    z-index: 1; /* Imagen de datos en el fondo */
-}
-
-#PersonalPicture {
+    justify-content: space-between;
+    align-content: center;
     width: 420px;
     height: 470px;
-    /*position: absolute;*/
-    bottom: 50px; /* Ajusta para subir la imagen sobre la otra */
-    left: 100px; /* Ajusta para controlar la superposición */
-    z-index: 2; /* Imagen personal encima */
-    border-radius: 10px;
+     
 }
