@@ -5,8 +5,33 @@
     margin: 0;
 }
 
+.header {
+    padding: 2% 0% 0% 7%;
+}
 
 
+.header__menu {
+    display: flex;
+    gap: 80px
+}
+
+
+.header__menu__links {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Figtree", serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #EFB036;
+    border: double;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.header__menu__links:hover {
+    background-color: #EFB036;
+    color: #000000;
+}
 body {
     /*height: 100vh;*/ 
     box-sizing: border-box;
@@ -23,7 +48,8 @@ body {
 
 .presentation {
     display: flex;
-    margin: 7% 13%;
+    /*margin: 7% 13%;*/
+    padding: 5% 12% 5% 7%;
     justify-content: space-between;
 }
 
