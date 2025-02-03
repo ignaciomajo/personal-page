@@ -94,6 +94,13 @@ body {
     }
 }
 
+.presentation__content__cv {
+    color: white;
+    font-size: 30px;
+    font-family: "Figtree", serif;
+    text-align: center;
+    padding: 30%;
+}
 .strong__p {
     color: #EFB036;
 }
