@@ -8,10 +8,10 @@
 
     --font-titles: "Outfit", serif;
     --font-text: "Figtree", serif;
-    --font-titles-size: 36px;
-    --font-big-size: 30px;
-    --font-intermediate-size: 24px;
-    --font-text-size: 20px;
+    --font-titles-size: 2.25rem;
+    --font-big-size: 1.875rem;
+    --font-intermediate-size: 1.5rem;
+    --font-text-size: 1.25rem;
 
     
 
@@ -51,6 +51,8 @@
     background-color: var(--color-secondary);
     color: var(--color-background);
 }
+
+
 body {
     /*height: 100vh;*/ 
     box-sizing: border-box;
@@ -64,12 +66,14 @@ body {
 
 
 
-
 .presentation {
     display: flex;
+    flex-direction: row;
     /*margin: 7% 13%;*/
     padding: 5% 12% 5% 7%;
     justify-content: space-between;
+    gap: 2.5rem;
+    
 }
 
 .presentation__content {
@@ -77,8 +81,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
-    width: 615px;
-    gap: 40px;
+    width: 50%;
+    gap: 2.5rem;
 }
 
 .presentation__content__title {
@@ -96,8 +100,8 @@ body {
     border: 3px double var(--color-text);
     border-color: var(--color-secondary);
     border-radius: 8px;
-    width: 550px;
-    height: 180px;
+    width: 34.375rem;
+    height: 11.25rem;
     padding: 5px;
 }
 
@@ -156,7 +160,7 @@ body {
     justify-content: center;
     align-content: center;
     gap: 16px;
-    width: 350px;
+    width: 50%;
     font-size: var(--font-intermediate-size);
     border: 2px solid var(--color-primary);
     border-radius: 8px;
@@ -168,16 +172,28 @@ a:hover {
     background-color: var(--color-primary);
 }
 
-.image__container {
+
+
+
+.presentation__image {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    align-content: center;
-    width: 420px;
-    height: 470px;
-     
-}
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 100%;
+    /*height: auto;*/
+    padding: 0% 0% 0% 5%;
+    gap: 2.5rem;
+    overflow: hidden;
 
+}
+#PersonalPicture {
+    width: 75%;
+    height: 29.375rem;
+    gap: 2.5rem;
+
+}
 
 .footer {
     background-color: var(--color-primary);
@@ -186,5 +202,5 @@ a:hover {
     font-family: var(--font-text);
     font-size: var(--font-intermediate-size);
     font-weight: 400;
-    padding: 10px;
+    padding: 0.875rem;
 }
