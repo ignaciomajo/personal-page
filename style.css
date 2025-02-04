@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
 
+:root {
+    --color-background: #000000;
+    --color-text: #F6F6F6;
+    --color-primary: #F14A00;
+    --color-secondary: #EFB036;
+
+    --font-titles: "Outfit", serif;
+    --font-text: "Figtree", serif;
+    --font-titles-size: 36px;
+    --font-big-size: 30px;
+    --font-intermediate-size: 24px;
+    --font-text-size: 20px;
+
+    
+
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -19,10 +37,10 @@
 .header__menu__links {
     display: flex;
     justify-content: space-between;
-    font-family: "Figtree", serif;
+    font-family: var(--font-text);
     font-weight: 600;
-    font-size: 24px;
-    color: #EFB036;
+    font-size: var(--font-intermediate-size);
+    color: var(--color-secondary);
     border: double;
     border-radius: 8px;
     padding: 10px;
@@ -30,16 +48,16 @@
 }
 
 .header__menu__links:hover {
-    background-color: #EFB036;
-    color: #000000;
+    background-color: var(--color-secondary);
+    color: var(--color-background);
 }
 body {
     /*height: 100vh;*/ 
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--color-background);
+    color: var(--color-text);
     .strong__h1 {
-        color:#F14A00;
+        color:var(--color-primary);
     };
         
 }
@@ -64,19 +82,19 @@ body {
 }
 
 .presentation__content__title {
-    color: white;
-    font-size: 36px;
-    font-family: "Outfit", serif;
+    color: var(--color-text);
+    font-size: var(--font-titles-size);
+    font-family: var(--font-titles);
 }
 
 .presentation__content__paragraph {
-    color: white;
-    font-size: 20px;
-    font-family: "Figtree", serif;
+    color: var(--color-text);
+    font-size: var(--font-text-size);
+    font-family: var(--font-text);
     text-align: center;
     /*border-style: outset;*/
-    border: 3px double white;
-    border-color: #EFB036;
+    border: 3px double var(--color-text);
+    border-color: var(--color-secondary);
     border-radius: 8px;
     width: 550px;
     height: 180px;
@@ -84,25 +102,25 @@ body {
 }
 
 .presentation__content__about {
-    color: white;
-    font-size: 20px;
-    font-family: "Figtree", serif;
+    color: var(--color-text);
+    font-size: var(--font-text-size);
+    font-family: var(--font-text);
     text-align: center;
     padding: 5%;
     .strong__p {
-        color: #EFB036;
+        color: var(--color-secondary);
     }
 }
 
 .presentation__content__cv {
-    color: white;
-    font-size: 30px;
-    font-family: "Figtree", serif;
+    color: var(--color-text);
+    font-size: var(--font-big-size);
+    font-family: var(--font-text);
     text-align: center;
     padding: 30%;
 }
 .strong__p {
-    color: #EFB036;
+    color: var(--color-secondary);
 }
 
 .presentation__links {
@@ -117,19 +135,19 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    color: #F6F6F6;
-    font-size: 24px;
-    font-family: "Outfit", serif;
+    color: var(--color-text);
+    font-size: var(--font-intermediate-size);
+    font-family: var(--font-titles);
 }
 
 .presentation__links__icons {
     width: 30px;
-    height: 30x;
+    height: 30px;
 }
 
 .presentation__links__buttons {
-    background-color: #000000;
-    color: #F6F6F6;
+    background-color: var(--color-background);
+    color: var(--color-text);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -139,15 +157,15 @@ body {
     align-content: center;
     gap: 16px;
     width: 350px;
-    font-size: 24px;
-    border: 2px solid #F14A00;
+    font-size: var(--font-intermediate-size);
+    border: 2px solid var(--color-primary);
     border-radius: 8px;
-    font-family: "Figtree", serif;
+    font-family: var(--font-text);
    
 }
 
 a:hover {
-    background-color: #F14A00;
+    background-color: var(--color-primary);
 }
 
 .image__container {
@@ -162,11 +180,11 @@ a:hover {
 
 
 .footer {
-    background-color: #F14A00;
-    color: #000000;
+    background-color: var(--color-primary);
+    color: var(--color-background);
     text-align: center;
-    font-family: "Figtree", serif;
-    font-size: 24px;
+    font-family: var(--font-text);
+    font-size: var(--font-intermediate-size);
     font-weight: 400;
     padding: 10px;
 }
