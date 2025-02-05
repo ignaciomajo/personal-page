@@ -272,12 +272,18 @@ a:hover {
 
     .presentation__content__about {
         width: 100%;
-        height: auto;
-        align-content: center;
+        gap: 1.5rem
+        justyfy-content: center;
+
     }
 
     .presentation__links__buttons {
         width: 80%;
+    }
+
+    .curriculum__list {
+        width: 100%;
+        gap: 1.5rem;
     }
 
     .curriculum__image {
