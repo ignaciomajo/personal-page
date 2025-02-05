@@ -195,3 +195,17 @@ a:hover {
     font-weight: 400;
     padding: 0.875rem;
 }
+
+
+@media (max-width: 1200px) {
+
+    .header {
+        display: flex;
+        align-items: center;
+    }
+    
+    .presentation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
