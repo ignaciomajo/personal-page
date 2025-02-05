@@ -272,8 +272,8 @@ a:hover {
 
     .presentation__content__about {
         width: 100%;
-        gap: 1.5rem
-        justyfy-content: center;
+        gap: 1.5rem;
+        justify-content: center;
 
     }
 
@@ -287,7 +287,7 @@ a:hover {
     }
 
     .curriculum__image {
-        width: 40%;
+        width: 60%;
         height: auto;
     }
 }
