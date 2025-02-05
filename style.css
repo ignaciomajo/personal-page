@@ -276,6 +276,10 @@ a:hover {
         align-content: center;
     }
 
+    .presentation__links__buttons {
+        width: 80%;
+    }
+
     .curriculum__image {
         width: 40%;
         height: auto;
