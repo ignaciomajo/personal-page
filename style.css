@@ -272,9 +272,11 @@ a:hover {
 
     .presentation__content__about {
         width: 100%;
-        gap: 1.5rem;
-        justify-content: center;
+        max-width: 600px;
         padding: 5%;
+        font-size: 1rem;
+        text-align: justify;
+        
 
     }
 
