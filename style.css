@@ -183,9 +183,39 @@ a:hover {
     align-items: center;
     justify-content: center;
     width: 40%;
-    height: auto;
 }
 
+
+.curriculum__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 5%;
+}
+
+
+.curriculum__list__position {
+    font-size: var(--font-intermediate-size);
+    font-family: var(--font-titles);
+    text-align: center;
+}
+
+.curriculum__list__paragraph {
+    color: var(--color-text);
+    font-size: var(--font-text-size);
+    font-family: var(--font-text);
+    text-align: center;
+    padding: 5px;
+
+}
+
+.curriculum__list__item {
+    color: var(--color-text);
+    font-size: var(--font-text-size);
+    font-family: var(--font-text);
+    text-align: left;
+    padding: 5px;
+}
 
 .footer {
     background-color: var(--color-primary);
@@ -197,6 +227,13 @@ a:hover {
     padding: 0.875rem;
 }
 
+.curriculum__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33rem;
+    height: 42rem;
+}
 
 @media (max-width: 1200px) {
 
