@@ -243,6 +243,12 @@ a:hover {
 
     .header__menu {
         justify-content: center;
+        gap: 2rem;
+    }
+
+    .header__menu__links {
+        font-size: var(--font-text-size);
+        padding: 5px;
     }
     
     .presentation {
