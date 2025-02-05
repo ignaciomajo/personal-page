@@ -108,9 +108,12 @@ body {
     color: var(--color-text);
     font-size: var(--font-text-size);
     font-family: var(--font-text);
-    /*text-align: center;*/
-    padding: 20%;
-    width: 80%;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 17%;
+    width: auto;
 }
 
 
