@@ -272,12 +272,7 @@ a:hover {
 
     .presentation__content__about {
         width: 100%;
-        max-width: 600px;
         padding: 5%;
-        font-size: 1rem;
-        text-align: justify;
-        
-
     }
 
     .presentation__links__buttons {
