@@ -63,7 +63,7 @@ body {
     display: flex;
     padding: 5% 7%;
     justify-content: space-between;
-    gap: 82px; 
+    gap: 82px;
 }
 
 
@@ -183,6 +183,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     width: 40%;
+    max-width: 100%;
 }
 
 
@@ -266,7 +267,7 @@ a:hover {
     }
 
     .presentation__image {
-        width: 50%;
+        width: 65%;
         align-content: center;
     }
 
