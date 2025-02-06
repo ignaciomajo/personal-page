@@ -193,6 +193,11 @@ body {
         gap: 1.5rem;
     }
 
+    .header__menu__links {
+        font-size: 1.23rem;
+        padding: 5px;
+    }
+
     .presentation {
         flex-direction: column-reverse;
         text-align: center;
