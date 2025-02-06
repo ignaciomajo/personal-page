@@ -150,7 +150,16 @@ This line corresponds to the image that you want to appear on your website. To d
 
 Here you can modify the text with your name to denote you have been the one who developed your website. You can also add any kind of information you wish to.<br>
 
+**CONTENT OF "ABOUT ME" PAGE**
 
+![about-html](https://github.com/user-attachments/assets/eafb3b6a-3fbc-45f9-83d4-10aa87386a3c)
 
+This page corresponds to a description about you, your career and future projection, or any information you want to share with visitors to your website.
 
+Here, you only need to modify what is between `<p> </p>`
 
+**- Line 19 to 23:** First paragraph
+
+**- Lines 34 to 36:** You must replace this line with **Lines 39 to 41** of the `index.html` file with the modifications you made. (lines corresponding to the image)
+
+**- Line 39:** Here you should copy the same text that you have put in **Line 44** of the main page.
