@@ -278,3 +278,11 @@ body {
         padding: 0.29rem;
     }
 }
+
+@media (max-width: 250px) {
+
+    .header__menu__links {
+        font-size: 0.5rem;
+        padding: 0.29rem;
+    }
+}
