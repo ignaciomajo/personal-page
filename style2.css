@@ -91,7 +91,7 @@ body {
 }
 
 .presentation__content__about {
-    width: 100%;
+    width: 90%;
     padding: 5%;
     font-size: var(--font-text-size);
 }
