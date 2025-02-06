@@ -286,23 +286,16 @@ body {
     }
 }
 
-@media (max-width: 290px) {
+@media (max-width: 300px) {
 
     .header__menu {
-        gap: 0.75rem;
+        gap: 4px;
     }
 
     .header__menu__links {
-        font-size: clamp(0.8rem, 2.2vw, 1.1rem);
-        padding: 0.29rem;
+        font-size: 0.75rem; 
+        padding: 2px 4px; 
     }
 }
 
-@media (max-width: 250px) {
-
-    .header__menu__links {
-        font-size: 0.5rem;
-        padding: 0.29rem;
-    }
-}
 
