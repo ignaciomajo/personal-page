@@ -26,4 +26,30 @@ I have decided to write both the project and this file in English to reach a bro
 
 You can access the project deployment at this link to see how it looks on the device of your choice: https://ignaciomajo-personal-page.vercel.app/
 
+## 2. Project Access. :open_file_folder:
+
+You can access the project in two simple ways:
+
+**Option 1:** Clone using Git
+
+From your command line, select the directory where you want to download the project and run the following command:
+
+`git clone https://github.com/ignaciomajo/personal-page`
+
+This command will create a copy of all the necessary files to use the project.
+
+**Option 2:** Download ZIP
+
+If you do not want to use the command line, go to the project URL: https://github.com/ignaciomajo/personal-page
+
+In the top right corner, you will see the `<> Code` section. Click on it, and you will see the `Download ZIP` option.
+
+Then, navigate to the directory where you cloned or downloaded the zip file, and you should have the following files:
+
+![respository-download-image](https://github.com/user-attachments/assets/46100d35-e72c-4a34-a292-951cbc58fffa)
+
+After completing these steps, you can access the files using a text editor such as Visual Studio Code to modify the template and develop your personal project.
+
+
+
 
