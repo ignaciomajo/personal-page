@@ -262,3 +262,11 @@ body {
         padding: 5px;
     }
 }
+
+@media (max-width: 321px) {
+
+    .header__menu__links {
+        font-size: 0.80rem;
+        padding: 5px;
+    }
+}
