@@ -158,8 +158,10 @@ This page corresponds to a description about you, your career and future project
 
 Here, you only need to modify what is between `<p> </p>`
 
-**- Line 19 to 23:** First paragraph
+**- Line 19 to 23:** Text content. You can observe that whatever you want to highlight can be enclosed by `<strong class="strong__p"> </strong>`.
 
 **- Lines 34 to 36:** You must replace this line with **Lines 39 to 41** of the `index.html` file with the modifications you made. (lines corresponding to the image)
 
 **- Line 39:** Here you should copy the same text that you have put in **Line 44** of the main page.
+
+
