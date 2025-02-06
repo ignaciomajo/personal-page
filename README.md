@@ -86,7 +86,7 @@ If you have not installed it yet, you can download it from: https://code.visuals
 
 Or, if you prefer, you can use any text editor you are familiar with.
 
-**"HOME" PAGE CONTENT:**
+<br> **"HOME" PAGE CONTENT:** <br>
 
 ![index-html](https://github.com/user-attachments/assets/f72b8fd5-ae51-4294-90c4-85285a82be8d)
 
@@ -152,7 +152,7 @@ This line corresponds to the image that you want to appear on your website. To d
 
 Here you can modify the text with your name to denote you have been the one who developed your website. You can also add any kind of information you wish to.<br>
 
-**"ABOUT ME" PAGE CONTENT**
+<br> **"ABOUT ME" PAGE CONTENT** <br>
 
 ![about-html](https://github.com/user-attachments/assets/eafb3b6a-3fbc-45f9-83d4-10aa87386a3c)
 
@@ -172,7 +172,7 @@ You can modify it to display your name (only change the text).
 
 **- Line 39:** Here you should copy the same text that you have put in **Line 44** of the main page.<br>
 
-**"CURRICULUM VITAE" PAGE CONTENT**
+<br> **"CURRICULUM VITAE" PAGE CONTENT** <br>
 
 This page corresponds to your work experience and trajectory. Positions, Dates, Companies you worked for and tasks asigned to those work positions.
 
