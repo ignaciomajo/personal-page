@@ -1,4 +1,4 @@
-# Proyecto - Personal Website
+# Project - Personal Website
 
 ![README-personal-page](https://github.com/user-attachments/assets/d5f88205-c4d8-4415-8ba8-da8bf0f30e91)
 
