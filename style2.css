@@ -265,8 +265,12 @@ body {
 
 @media (max-width: 321px) {
 
+    .header__menu {
+        gap: 1rem;
+    }
+
     .header__menu__links {
-        font-size: 0.80rem;
+        font-size: clamp(1rem, 2.5vw, 1.25rem);
         padding: 0.29rem;
         white-space: nowrap;
     }
@@ -274,8 +278,12 @@ body {
 
 @media (max-width: 290px) {
 
+    .header__menu {
+        gap: 0.75rem;
+    }
+
     .header__menu__links {
-        font-size: 0.70rem;
+        font-size: clamp(0.8rem, 2.2vw, 1.1rem);
         padding: 0.29rem;
     }
 }
