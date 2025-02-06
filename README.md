@@ -92,7 +92,9 @@ Or, if you prefer, you can use any text editor you are familiar with.
 
 As seen on the left of the image, each line of code has a reference number. I will use this to indicate the modifications to be made:
 
-**- Line 6:**
+**- Line 6:** 
+
+*Note: This has to be done in all three files.*
 
 `<title> </title>` Here you can see the text: "Ignacio Majo's Portfolio - Home." This text is the page title, which appears in the browser tab.
 
@@ -150,18 +152,58 @@ This line corresponds to the image that you want to appear on your website. To d
 
 Here you can modify the text with your name to denote you have been the one who developed your website. You can also add any kind of information you wish to.<br>
 
-**CONTENT OF "ABOUT ME" PAGE**
+**"ABOUT ME" PAGE CONTENT**
 
 ![about-html](https://github.com/user-attachments/assets/eafb3b6a-3fbc-45f9-83d4-10aa87386a3c)
 
 This page corresponds to a description about you, your career and future projection, or any information you want to share with visitors to your website.
 
-Here, you only need to modify what is between `<p> </p>`
+**- Line 6:** 
+
+*Note: This has to be done in all three files.*
+
+`<title> </title>` Here you can see the text: "Ignacio Majo's Portfolio - About Me." This text is the page title, which appears in the browser tab.
+
+You can modify it to display your name (only change the text).
 
 **- Line 19 to 23:** Text content. You can observe that whatever you want to highlight can be enclosed by `<strong class="strong__p"> </strong>`.
 
 **- Lines 34 to 36:** You must replace this line with **Lines 39 to 41** of the `index.html` file with the modifications you made. (lines corresponding to the image)
 
-**- Line 39:** Here you should copy the same text that you have put in **Line 44** of the main page.
+**- Line 39:** Here you should copy the same text that you have put in **Line 44** of the main page.<br>
 
+**"CURRICULUM VITAE" PAGE CONTENT**
 
+This page corresponds to your work experience and trajectory. Positions, Dates, Companies you worked for and tasks asigned to those work positions.
+
+![curriculum-html](https://github.com/user-attachments/assets/3d849b6c-0255-4667-bf2f-ee9ad652c595)
+
+**- Line 6:** 
+
+*Note: This has to be done in all three files.*
+
+`<title> </title>` Here you can see the text: "Ignacio Majo's Portfolio - Curriculum Vitae." This text is the page title, which appears in the browser tab.
+
+You can modify it to display your name (only change the text).
+
+Here, each work experience will be enclosed like this:
+
+![work-position](https://github.com/user-attachments/assets/23e8d836-49f0-47ed-b403-d4c72f43d311)
+
+In this 10 line block you can observe:
+
+**- Lines 1 and 2:**
+
+* What is enclosed in `<li> </li>` will correspond to: Job Position | Working Period | Location. Inside of this, the Job Position is enclosed by `<strong class="strong__p"> </strong>` for highlighting it.
+
+**- Line 3:**
+
+Corresponds to company your worked for.
+
+**- Lines 4 to 10:**
+
+This comprises a list of tasks associated to the corresponding Job Position. Each task is enclosed by `<li> </li>`. You can add as many tasks as needed by following that pattern.
+
+*Note:*
+
+If your trajectory has more experiences than the ones enumarted in the `curriculum.html` file. You can copy a block as the one described above, and simply paste it under the last block of this kind. If you take a look at the image corresponding to the whole `curriculum.html` file, it would be between **Lines 77 and 78**. You will also have to change as you have done in the other two `.html` files, **- Lines 80 to 82** for the image and **Line 85** for the footer of the page.
