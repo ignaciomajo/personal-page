@@ -234,7 +234,7 @@ This project was made possible thanks to these two great companies, which togeth
 
 ![one](https://github.com/user-attachments/assets/2b928eab-edd6-4df6-8e67-20591785f632)
 
-6. Project Developer. :construction_worker:
+## 6. Project Developer. :construction_worker:
 
 ![imagen-readme](https://github.com/user-attachments/assets/bd7ae7fb-95d6-4f96-9946-2a3fab39bbb3)
 
