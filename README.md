@@ -207,3 +207,35 @@ This comprises a list of tasks associated to the corresponding Job Position. Eac
 *Note:*
 
 If your trajectory has more experiences than the ones enumarted in the `curriculum.html` file. You can copy a block as the one described above, and simply paste it under the last block of this kind. If you take a look at the image corresponding to the whole `curriculum.html` file, it would be between **Lines 77 and 78**. You will also have to change as you have done in the other two `.html` files, **- Lines 80 to 82** for the image and **Line 85** for the footer of the page.
+
+## 4. Techniques and Technologies Used. :hammer_and_wrench:
+
+The following technologies were used in this project:
+
+* `Visual Studio Code`
+* `ChatGPT` (cover image generation)
+* `HTML-5`
+* `CSS-3`
+* `Git and GitHub`
+
+## 5. Project Collaborators. :building_construction:
+
+I want to thank:
+
+Oracle
+
+![oracle](https://github.com/user-attachments/assets/2170669a-5646-41f8-9a7b-568a76e4fc0a)
+
+Alura LATAM
+
+![alura-latam](https://github.com/user-attachments/assets/6a01c709-a059-44ce-b3d6-3450d714733a)
+
+This project was made possible thanks to these two great companies, which together developed the **Oracle Next Education** program to train future workers.
+
+![one](https://github.com/user-attachments/assets/2b928eab-edd6-4df6-8e67-20591785f632)
+
+6. Project Developer. :construction_worker:
+
+![imagen-readme](https://github.com/user-attachments/assets/bd7ae7fb-95d6-4f96-9946-2a3fab39bbb3)
+
+| Ignacio Majo | Junior Data Scientist |
