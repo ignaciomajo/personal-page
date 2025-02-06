@@ -238,4 +238,4 @@ This project was made possible thanks to these two great companies, which togeth
 
 ![imagen-readme](https://github.com/user-attachments/assets/bd7ae7fb-95d6-4f96-9946-2a3fab39bbb3)
 
-| Ignacio Majo | Junior Data Scientist |
+**| Ignacio Majo | Junior Data Scientist |**
